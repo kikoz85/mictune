@@ -26,6 +26,7 @@ MicTune trasforma il tuo Mac in un processore vocale per cantare dal vivo: **cor
 - 🎤 **Correzione NATURALE** (intona senza suono robotico, mantiene il vibrato) oppure **EFFETTO** (l'hard-tune trap).
 - 🎼 **AUTO KEY**: riconosce da solo la tonalità della canzone.
 - 🎹 **Correzione guidata da MIDI**: invia la melodia come note MIDI alla porta **MicTune MIDI In** (da Vocalis, Logic, Ableton o una tastiera) e la voce viene intonata sulle note esatte del brano, con 0 ms di latenza aggiunta.
+- 🎤 **Cori dal MIDI**: se il brano ha una traccia coro, le armonie cantano le sue note con la tua voce, solo dove il brano ha i cori. Con **Vocalis** (Vocalis Link) canali, tonalità e BPM arrivano da soli.
 - 🥁 **AUTO BPM**: riconosce il tempo e mette gli echi a tempo.
 - ✨ **Preset** pronti in due famiglie: **correzione naturale** (Melodic Rap, Urban Pop, Indie Pop, Ballad Arena…) e **hard tune** (Trap Hardcore, Dark Trap, Ambient Trap…).
 - 🎛️ **Rack Vocal Processor**: compressore, riverbero, delay e **armonizzatore a 4 voci** che segue la tonalità e mantiene il timbro della voce, con **FREEZE** (tiene una nota come tappeto) e **carattere** Pulito / Ricco / Texture.
@@ -108,6 +109,8 @@ Nel modulo **ARMONIZZATORE** del rack scegli quante voci aggiungere (fino a 4) c
 
 Nel player o nella DAW scegli l'uscita MIDI **MicTune MIDI In** e invia la melodia della voce (i file karaoke usano il **canale 4**, ascoltato di default). Si accende il badge **MIDI GUIDED** e nel Pitch Graph la nota da cantare appare come un binario dorato. Canale, priorità, pitch bend e "Segui l'ottava" si regolano in **Impostazioni › MIDI**.
 
+Se il brano ha una **traccia coro**, MicTune la riconosce e le armonie cantano quelle note con la tua voce (fili magenta nel Pitch Graph, badge **CORO**). Con **Vocalis 1.2** basta attivare *Setup › Audio / MIDI › Guida melodica*: il badge diventa **VOCALIS LINK** e in modalità Semplice tonalità, BPM, guida e coro si configurano da soli.
+
 ### Livelli consigliati
 
 - **MIC IN** (card MIXER): quando canti forte deve arrivare circa a ¾, mai sempre al massimo. Regola il gain sulla scheda/mixer.
@@ -156,6 +159,7 @@ MicTune turns your Mac into a live vocal processor: **real-time pitch correction
 - 🎤 **NATURAL correction** (in tune without the robotic sound, vibrato kept) or **EFFECT** (the trap hard-tune).
 - 🎼 **AUTO KEY** detects the song's key, 🥁 **AUTO BPM** keeps the echoes in time.
 - 🎹 **MIDI-guided correction**: send the melody as MIDI notes to **MicTune MIDI In** (Vocalis, Logic, Ableton or a keyboard) and your voice is tuned to the song's exact notes, with 0 ms extra latency.
+- 🎤 **Backing vocals from MIDI**: if the song has a chorus track, the harmonies sing its notes with your voice, only where the song has backing vocals. With **Vocalis** (Vocalis Link) channels, key and BPM arrive by themselves.
 - ✨ Ready-made **presets** in two families: **natural correction** (Melodic Rap, Urban Pop, Indie Pop, Ballad Arena…) and **hard tune** (Trap Hardcore, Dark Trap, Ambient Trap…).
 - 🎛️ **Vocal Processor rack**: compressor, reverb, delay and a **4-voice harmonizer** that follows the song's key and keeps the singer's timbre, with **FREEZE** (holds a note as a pad) and **character** Clean / Rich / Texture.
 - 🎚️ **SIMPLE** mode (essential controls and ready-made styles) and **ADVANCED** mode (every parameter).
@@ -207,7 +211,7 @@ No cables or extra software: play the song on **YouTube, Spotify, VLC** or any a
 
 **Harmonies and FREEZE**: in the rack's **HARMONIZER** pick up to 4 voices with − / +; they follow the song's key and sound like real backing vocals. **FREEZE** (key F) holds the note you sing as a pad. Harmonies arrive a few ms after your voice, like a choir: **your lead voice keeps its near-zero latency**.
 
-**MIDI-guided correction**: in your player or DAW pick the MIDI output **MicTune MIDI In** and send the vocal melody (karaoke files use **channel 4**, the default). The **MIDI GUIDED** badge lights up and the Pitch Graph shows the note to sing as a golden rail. Channel, priority, pitch bend and "Follow the octave" are in **Settings › MIDI**.
+**MIDI-guided correction**: in your player or DAW pick the MIDI output **MicTune MIDI In** and send the vocal melody (karaoke files use **channel 4**, the default). The **MIDI GUIDED** badge lights up and the Pitch Graph shows the note to sing as a golden rail. Channel, priority, pitch bend and "Follow the octave" are in **Settings › MIDI**. If the song has a **chorus track**, MicTune recognises it and the harmonies sing those notes with your voice (magenta threads in the Pitch Graph, **CHOIR** badge). With **Vocalis 1.2** just turn on *Setup › Audio / MIDI › Melody guide*: the badge reads **VOCALIS LINK** and in Simple mode key, BPM, guide and chorus configure themselves.
 
 **Natural or effect**: NATURAL (default) tunes the centre of each note and keeps vibrato and slides; lower **CORRECTION** to 70–85% for a more human sound. EFFECT is the deliberate robotic snap. **SPEED** 0–8 ms = audible, 20–40 ms = almost invisible.
 
