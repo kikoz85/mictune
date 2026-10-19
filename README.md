@@ -27,7 +27,8 @@ MicTune trasforma il tuo Mac in un processore vocale per cantare dal vivo: **cor
 - 🎼 **AUTO KEY**: riconosce da solo la tonalità della canzone.
 - 🥁 **AUTO BPM**: riconosce il tempo e mette gli echi a tempo.
 - ✨ **Preset** pronti in due famiglie: **correzione naturale** (Melodic Rap, Urban Pop, Indie Pop, Ballad Arena…) e **hard tune** (Trap Hardcore, Dark Trap, Ambient Trap…).
-- 🎚️ Modalità **SEMPLICE** (stili con nomi chiari) e **AVANZATA** (tutti i parametri).
+- 🎛️ **Rack Vocal Processor**: compressore, riverbero, delay e **armonizzatore a 4 voci** che segue la tonalità e mantiene il timbro della voce, con **FREEZE** (tiene una nota come tappeto) e **carattere** Pulito / Ricco / Texture.
+- 🎚️ Modalità **SEMPLICE** (controlli essenziali e stili pronti) e **AVANZATA** (tutti i parametri).
 - 🎧 Uscita su cuffie e impianto insieme, **pulizia del microfono** (gate) e spettri animati.
 - 🌍 Italiano, English, Français, Deutsch, Español.
 - 🔄 **Aggiornamenti automatici**.
@@ -98,6 +99,10 @@ Non serve nessun cavo né programma in più: fai partire la canzone su **YouTube
 4. Se senti la correzione anche sulla base, premi **CALIBRA** nella card MIXER e resta in silenzio 3 secondi.
 5. Canta. 🎤
 
+### Armonie e FREEZE
+
+Nel modulo **ARMONIZZATORE** del rack scegli quante voci aggiungere (fino a 4) con − / +: seguono la tonalità della canzone e suonano come cori veri. **FREEZE** (tasto F) tiene la nota che stai cantando come tappeto. Le armonie arrivano pochi millisecondi dopo la voce, come un coro: **la tua voce resta a latenza quasi zero**.
+
 ### Livelli consigliati
 
 - **MIC IN** (card MIXER): quando canti forte deve arrivare circa a ¾, mai sempre al massimo. Regola il gain sulla scheda/mixer.
@@ -146,7 +151,8 @@ MicTune turns your Mac into a live vocal processor: **real-time pitch correction
 - 🎤 **NATURAL correction** (in tune without the robotic sound, vibrato kept) or **EFFECT** (the trap hard-tune).
 - 🎼 **AUTO KEY** detects the song's key, 🥁 **AUTO BPM** keeps the echoes in time.
 - ✨ Ready-made **presets** in two families: **natural correction** (Melodic Rap, Urban Pop, Indie Pop, Ballad Arena…) and **hard tune** (Trap Hardcore, Dark Trap, Ambient Trap…).
-- 🎚️ **SIMPLE** mode (clearly named styles) and **ADVANCED** mode (every parameter).
+- 🎛️ **Vocal Processor rack**: compressor, reverb, delay and a **4-voice harmonizer** that follows the song's key and keeps the singer's timbre, with **FREEZE** (holds a note as a pad) and **character** Clean / Rich / Texture.
+- 🎚️ **SIMPLE** mode (essential controls and ready-made styles) and **ADVANCED** mode (every parameter).
 - 🎧 Headphones and PA at the same time, mic **cleanup gate**, animated spectrum and pitch graph.
 - 🌍 English, Italiano, Français, Deutsch, Español · 🔄 **automatic updates**.
 
@@ -192,6 +198,8 @@ No cables or extra software: play the song on **YouTube, Spotify, VLC** or any a
 2. Pick a **PRESET**, e.g. **MELODIC RAP**: it sets voice, reverb, delay and turns on **AUTO KEY** and **AUTO BPM**.
 3. If you hear the correction on the backing track, press **CALIBRATE** in the MIXER card and stay silent for 3 seconds.
 4. Sing. 🎤
+
+**Harmonies and FREEZE**: in the rack's **HARMONIZER** pick up to 4 voices with − / +; they follow the song's key and sound like real backing vocals. **FREEZE** (key F) holds the note you sing as a pad. Harmonies arrive a few ms after your voice, like a choir: **your lead voice keeps its near-zero latency**.
 
 **Natural or effect**: NATURAL (default) tunes the centre of each note and keeps vibrato and slides; lower **CORRECTION** to 70–85% for a more human sound. EFFECT is the deliberate robotic snap. **SPEED** 0–8 ms = audible, 20–40 ms = almost invisible.
 
