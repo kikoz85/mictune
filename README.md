@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">MicTune</h1>
-<p align="center"><b>Universal Live Vocal Processor</b> · correzione dell'intonazione dal vivo per macOS</p>
+<p align="center"><b>Universal Live Vocal Processor</b> · correzione dell'intonazione dal vivo per macOS, Windows e Linux</p>
 
 <p align="center">
   <a href="https://github.com/kikoz85/mictune/releases/latest"><b>⬇︎ Scarica l'ultima versione / Download the latest version</b></a>
@@ -50,6 +50,17 @@ MicTune trasforma il tuo Mac in un processore vocale per cantare dal vivo: **cor
 3. Apri MicTune da Applicazioni. Al **primo avvio** macOS potrebbe dire che non può verificare lo sviluppatore:
    apri **Impostazioni di Sistema › Privacy e sicurezza**, scorri in basso e premi **Apri comunque**, poi conferma.
 4. Premi **AVVIA**: macOS chiede il permesso per il **Microfono** e per la **Registrazione audio** (serve per catturare la base). Consenti entrambi.
+
+### Windows e Linux
+
+Stessa app, stesso suono e stessa grafica del Mac.
+
+- **Windows 10 (2004) o 11, 64 bit**: scarica **MicTune-x.y.z-Windows-Setup.exe** e avvialo. Se compare *"Windows ha protetto il PC"*, premi **Ulteriori informazioni › Esegui comunque** (l'installer non ha ancora una firma digitale). Si installa per il tuo utente, senza password di amministratore.
+  - La base viene catturata da tutte le app (YouTube, Spotify, VLC, Vocalis) e continua a suonare dall'app stessa: MicTune la usa per AUTO KEY, AUTO BPM e lo spettro.
+  - Per la guida MIDI da Vocalis crea con **loopMIDI** una porta chiamata **MicTune MIDI In**.
+- **Linux 64 bit con PipeWire** (Debian 13, Ubuntu 25.04 o più recenti): scarica **MicTune-x.y.z-x86_64.AppImage**, rendilo eseguibile (*Proprietà › Consenti l'esecuzione*, oppure `chmod +x`) e aprilo.
+  - Mentre MicTune è attivo l'uscita predefinita diventa **MicTune Music**: le app suonano attraverso MicTune, come sul Mac.
+  - La porta **MicTune MIDI In** compare da sola: Vocalis la trova senza configurare niente.
 
 ### Come collegare le periferiche (importante)
 
@@ -178,6 +189,17 @@ MicTune turns your Mac into a live vocal processor: **real-time pitch correction
 2. Open the DMG and **drag MicTune to the Applications folder**.
 3. Open MicTune. On **first launch** macOS may say it can't verify the developer: open **System Settings › Privacy & Security**, scroll down, click **Open Anyway** and confirm.
 4. Press **START**: allow **Microphone** and **Audio Recording** (needed to capture the backing track).
+
+### Windows and Linux
+
+Same app, same sound and same look as on the Mac.
+
+- **Windows 10 (2004) or 11, 64-bit**: download **MicTune-x.y.z-Windows-Setup.exe** and run it. If *"Windows protected your PC"* appears, click **More info › Run anyway** (the installer is not code-signed yet). It installs for your user, no administrator password.
+  - The backing track is captured from every app (YouTube, Spotify, VLC, Vocalis) and keeps playing from the app itself: MicTune uses it for AUTO KEY, AUTO BPM and the spectrum.
+  - For the MIDI guide from Vocalis create a **loopMIDI** port named **MicTune MIDI In**.
+- **64-bit Linux with PipeWire** (Debian 13, Ubuntu 25.04 or newer): download **MicTune-x.y.z-x86_64.AppImage**, make it executable (*Properties › Allow executing*, or `chmod +x`) and open it.
+  - While MicTune runs the default output becomes **MicTune Music**: apps play through MicTune, like on the Mac.
+  - The **MicTune MIDI In** port appears by itself: Vocalis finds it with no setup.
 
 ### Connecting your gear (important)
 
