@@ -10,6 +10,11 @@
 </p>
 
 <p align="center">
+  <a href="https://www.enricofanucchi.com/it/app/mictune?utm_source=github&utm_campaign=readme"><img src="https://img.shields.io/badge/sito%20%C2%B7%20website-enricofanucchi.com-F7941D" alt="MicTune website"></a>
+  <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor MicTune on GitHub"></a>
+</p>
+
+<p align="center">
   <a href="#-italiano">🇮🇹 Italiano</a> · <a href="#-english">🇬🇧 English</a>
 </p>
 
@@ -151,6 +156,12 @@ MicTune controlla da solo se c'è una nuova versione, la scarica in background, 
 
 La **guida completa** è dentro l'app: menu **Aiuto › Guida di MicTune** (⌘?).
 
+### Sostieni lo sviluppo
+
+MicTune è gratuito e sviluppato fuori orario. Se ti fa cantare meglio, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=mictune) del sito. Le donazioni pagano la firma degli installer, così macOS e Windows smettono di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
+
+Sito e guida: [enricofanucchi.com/it/app/mictune](https://www.enricofanucchi.com/it/app/mictune?utm_source=github&utm_campaign=readme)
+
 ### Screenshot
 
 | Modalità semplice | Modalità avanzata |
@@ -252,6 +263,12 @@ MicTune checks for new versions by itself, downloads and verifies them in the ba
 - **Clicks**: raise the buffer to 128 in Settings.
 
 The **full guide** is inside the app: **Help › MicTune Guide** (⌘?).
+
+### Support development
+
+MicTune is free and built after hours. If it makes you sing better, you can support its development with **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (the **Sponsor** button is also at the top of this page) or from the [Support](https://www.enricofanucchi.com/en/support?utm_source=github&utm_campaign=mictune) page of the website. Donations pay for signed installers, so macOS and Windows stop asking for confirmation on first launch, and for the time to build the next versions. A ⭐ on the repository helps too.
+
+Website and guide: [enricofanucchi.com/en/app/mictune](https://www.enricofanucchi.com/en/app/mictune?utm_source=github&utm_campaign=readme)
 
 | Simple mode | Advanced mode |
 |---|---|
