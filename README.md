@@ -52,8 +52,7 @@ MicTune trasforma il tuo Mac in un processore vocale per cantare dal vivo: **cor
 2. Apri il DMG e **trascina MicTune nella cartella Applicazioni**.
 
    ![Installazione](screenshots/install.png)
-3. Apri MicTune da Applicazioni. Al **primo avvio** macOS potrebbe dire che non può verificare lo sviluppatore:
-   apri **Impostazioni di Sistema › Privacy e sicurezza**, scorri in basso e premi **Apri comunque**, poi conferma.
+3. Apri MicTune da Applicazioni. L'app è firmata con un certificato Apple Developer ID e notarizzata da Apple: si apre subito, senza avvisi.
 4. Premi **AVVIA**: macOS chiede il permesso per il **Microfono** e per la **Registrazione audio** (serve per catturare la base). Consenti entrambi.
 
 ### Windows e Linux
@@ -158,7 +157,7 @@ La **guida completa** è dentro l'app: menu **Aiuto › Guida di MicTune** (⌘?
 
 ### Sostieni lo sviluppo
 
-MicTune è gratuito e sviluppato fuori orario. Se ti fa cantare meglio, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=mictune) del sito. Le donazioni pagano la firma degli installer, così macOS e Windows smettono di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
+MicTune è gratuito e sviluppato fuori orario. Se ti fa cantare meglio, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=mictune) del sito. Le donazioni pagano i certificati di firma (la versione Mac è già firmata e notarizzata; il prossimo passo è l'installer Windows, che oggi chiede ancora conferma al primo avvio) e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
 
 Sito e guida: [enricofanucchi.com/it/app/mictune](https://www.enricofanucchi.com/it/app/mictune?utm_source=github&utm_campaign=readme)
 
@@ -198,7 +197,7 @@ MicTune turns your Mac into a live vocal processor: **real-time pitch correction
 
 1. Download **MicTune-x.y.z.dmg** from [Releases](https://github.com/kikoz85/mictune/releases/latest).
 2. Open the DMG and **drag MicTune to the Applications folder**.
-3. Open MicTune. On **first launch** macOS may say it can't verify the developer: open **System Settings › Privacy & Security**, scroll down, click **Open Anyway** and confirm.
+3. Open MicTune. The app is signed with an Apple Developer ID certificate and notarized by Apple: it opens right away, with no warnings.
 4. Press **START**: allow **Microphone** and **Audio Recording** (needed to capture the backing track).
 
 ### Windows and Linux
@@ -266,7 +265,7 @@ The **full guide** is inside the app: **Help › MicTune Guide** (⌘?).
 
 ### Support development
 
-MicTune is free and built after hours. If it makes you sing better, you can support its development with **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (the **Sponsor** button is also at the top of this page) or from the [Support](https://www.enricofanucchi.com/en/support?utm_source=github&utm_campaign=mictune) page of the website. Donations pay for signed installers, so macOS and Windows stop asking for confirmation on first launch, and for the time to build the next versions. A ⭐ on the repository helps too.
+MicTune is free and built after hours. If it makes you sing better, you can support its development with **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (the **Sponsor** button is also at the top of this page) or from the [Support](https://www.enricofanucchi.com/en/support?utm_source=github&utm_campaign=mictune) page of the website. Donations pay for the signing certificates (the Mac version is already signed and notarized; next is the Windows installer, which still asks for confirmation on first launch) and for the time to build the next versions. A ⭐ on the repository helps too.
 
 Website and guide: [enricofanucchi.com/en/app/mictune](https://www.enricofanucchi.com/en/app/mictune?utm_source=github&utm_campaign=readme)
 
